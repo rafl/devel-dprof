@@ -1,5 +1,9 @@
 2011 Feb 25
  Florian Ragwitz:
+    - Tell PAUSE to not index our dprof/ directory containing test modules.
+
+2011 Feb 25
+ Florian Ragwitz:
     - Deprecate this module in favour of Devel::NYTProf.
     - This is the first upload of Devel::DProf directly to CPAN. It's still part
       of the perl core as of version 5.14.0, but it's also deprecated there,

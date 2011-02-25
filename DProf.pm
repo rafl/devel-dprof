@@ -203,9 +203,6 @@ For example, this code will break under Devel::DProf:
 A pattern like this is used by Test::More's skip() function, for
 example.  See L<perldiag> for more details.
 
-Mail bug reports and feature requests to the perl5-porters mailing list at
-F<E<lt>perl5-porters@perl.orgE<gt>>.
-
 =head1 SEE ALSO
 
 L<perl>, L<dprofpp>, times(2)

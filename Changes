@@ -1,3 +1,7 @@
+2011 Feb 28
+ Florian Ragwitz:
+    - Support 5.10 and possibly even older versions of perl.
+
 2011 Feb 25
  Florian Ragwitz:
     - Tell PAUSE to not index our dprof/ directory containing test modules.

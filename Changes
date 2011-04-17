@@ -1,5 +1,6 @@
  Alexandr Ciornii
     - search for dprofpp inside bin/ directory
+    - compatibility with perls before deprecate.pm was introduced
 
 2011 Feb 28
  Florian Ragwitz:

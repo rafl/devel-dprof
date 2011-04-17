@@ -13,11 +13,13 @@ BEGIN {
 }
 
 require Devel::DProf;
-require deprecate;
 
-if($] > 5.013010 && deprecate::__loaded_from_core('Devel::DProf', $INC{'Devel/DProf.pm'},
-						  'Devel/DProf.pm')) {
-    warn "dprofpp will be removed from the Perl core distribution in the next major release. Please install Devel::DProf from CPAN.\n";
+if($] > 5.013010) {
+    require deprecate;
+
+    if (deprecate::__loaded_from_core('Devel::DProf', $INC{'Devel/DProf.pm'},'Devel/DProf.pm')) {
+        warn "dprofpp will be removed from the Perl core distribution in the next major release. Please install Devel::DProf from CPAN.\n";
+    }
 }
 
 =head1 NAME

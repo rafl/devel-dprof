@@ -1,3 +1,6 @@
+ Alexandr Ciornii
+    - search for dprofpp inside bin/ directory
+
 2011 Feb 28
  Florian Ragwitz:
     - Support 5.10 and possibly even older versions of perl.

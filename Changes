@@ -1,3 +1,5 @@
+ Sean Zellmer
+    - Added deprecated flag to metadata
 2011 Aug 02
  Alexandr Ciornii
     - search for dprofpp inside bin/ directory
